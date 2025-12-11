@@ -6,7 +6,6 @@ import { ToastContainer } from 'react-toastify';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { useEffect } from 'react';
-import { initializeCodeProtection } from './utils/codeProtection';
 
 import Header from './components/Header';
 import Home from './components/Home';
