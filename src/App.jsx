@@ -34,11 +34,6 @@ import Preloader from './components/Preloader';
 import CustomCursor from './components/CustomCursor';
 import { AdminRoute, UserRoute } from './components/ProtectedRoute';
 
-function App() {
-  useEffect(() => {
-    initializeCodeProtection();
-  }, []);
-
   return (
     <Router>
       <div className="app-container">
